@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChocoLux — Taste Luxury in Every Bite</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">✦</span>
+        Choco<span class="logo-accent">Lux</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">Shop</a></li>
+        <li><a href="#" class="nav-link">Categories</a></li>
+        <li><a href="#" class="nav-link">About</a></li>
+        <li><a href="#" class="nav-link">Reviews</a></li>
+        <li><a href="#" class="nav-link">Contact</a></li>
+        <li class="nav-cta-mobile"><a href="#" class="btn btn-primary">Buy Now</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <a href="#" class="btn btn-primary nav-cta">Buy Now</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="hero">
+
+    <!-- Background grain -->
+    <div class="hero-grain"></div>
+
+    <!-- Ambient blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="hero-container">
+
+      <!-- LEFT CONTENT -->
+      <div class="hero-content fade-up">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          Premium Handmade Chocolates
+        </div>
+
+        <h1 class="hero-heading">
+          Taste<br />
+          <em>Luxury</em><br />
+          in Every Bite
+        </h1>
+
+        <p class="hero-desc">
+          Crafted from the world's finest cacao, each ChocoLux piece is a
+          hand-poured meditation on flavor — layered, complex, and made to
+          transform gifting into a genuine sensory experience.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#" class="btn btn-primary btn-lg ripple">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            Shop Now
+          </a>
+          <a href="#" class="btn btn-outline btn-lg">
+            Explore Collection
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+          </a>
+        </div>
+
+        <!-- Stats row (mobile only) -->
+        <div class="stats-row mobile-stats">
+          <div class="stat-pill"><strong>1000+</strong> Customers</div>
+          <div class="stat-pill"><strong>50+</strong> Flavors</div>
+          <div class="stat-pill">⚡ Fast Delivery</div>
+        </div>
+      </div>
+
+      <!-- RIGHT VISUAL -->
+      <div class="hero-visual fade-up fade-delay">
+
+        <!-- Main image -->
+        <div class="image-frame">
+          <img
+            src="https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=700&q=80&auto=format&fit=crop"
+            alt="Premium dark chocolates arranged elegantly"
+            class="hero-img"
+            loading="eager"
+          />
+          <div class="image-shine"></div>
+        </div>
+
+        <!-- Floating stat cards -->
+        <div class="stat-card card-customers float-anim-1">
+          <div class="stat-icon">😊</div>
+          <div class="stat-info">
+            <strong>1000+</strong>
+            <span>Happy Customers</span>
+          </div>
+        </div>
+
+        <div class="stat-card card-flavors float-anim-2">
+          <div class="stat-icon">🍫</div>
+          <div class="stat-info">
+            <strong>50+</strong>
+            <span>Chocolate Flavors</span>
+          </div>
+        </div>
+
+        <div class="stat-card card-delivery float-anim-3">
+          <div class="stat-icon">⚡</div>
+          <div class="stat-info">
+            <strong>Fast</strong>
+            <span>Delivery</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Decorative divider -->
+    <div class="hero-divider">
+      <span>✦</span><span>✦</span><span>✦</span>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
